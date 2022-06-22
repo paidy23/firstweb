@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>Atlas</h1>
+    <p><strong>Email : </strong>atlas45@gmail.com</p>
+    <p><strong>Address : </strong>Greece 76 BC</p>
+    <p><strong>Number : </strong>00 765767855</p>
+    <hr />
+    <br />
+    <form id="infos" action="index.html" method="post">
+      <table cellspacing="15">
+        <tr>
+          <td align="right">
+            <label id="name">Name : </label>
+          </td>
+          <td>
+            <input required
+              type="text"
+              placeholder="ex. Maximillian Zeus"
+            />
+          </td>
+          <td>
+            <input type="reset" />
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label>Mail : </label>
+          </td>
+          <td><input type="email" placeholder="ex. zeus23" required/></td>
+          <td><input type="reset" /></td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label>Password : </label>
+          </td>
+          <td><input type="password" required /></td>
+          <td><input type="reset" /></td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label
+              >Age : 
+          </td>
+          <td>
+            <input size="8" type="number" placeholder="ex. 19" required/>
+              years old
+            </label>
+          <td><input type="reset" /></td>
+        </tr>
+        <tr>
+          <td align="right"><label>Message : </label></td>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <td align="right" colspan="2"><label for="">Do you want to receive infos ?</label></td>
+          <td rowspan="5"><input type="checkbox"></td>
+        </tr>
+
+      </table>
+      <br>
+      <input type="submit" value="Submit !">
+    </form>
+  </body>
+</html>
